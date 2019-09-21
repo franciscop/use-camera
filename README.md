@@ -2,6 +2,8 @@
 
 A React hook to use the camera and audio of the device:
 
+<img align="right" width="320" src="https://raw.githubusercontent.com/franciscop/use-camera/master/assets/prompt.png" />
+
 ```js
 import React from "react";
 import useCamera from "use-camera";
@@ -12,11 +14,7 @@ export default () => {
 };
 ```
 
-It will ask the user to accept the camera and audio with the native browser prompt:
-
-<img width="400" src="https://raw.githubusercontent.com/franciscop/use-camera/master/assets/prompt.png" />
-
-If you only want either the audio or video, set the other one to false:
+It will ask the user to accept the camera and audio with the native browser prompt. If you only want **only** `video` or `audio`, set the other one to false:
 
 ```js
 import React from "react";
