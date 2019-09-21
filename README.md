@@ -1,4 +1,4 @@
-# use-camera
+# use-camera [![npm install use-camera](https://img.shields.io/badge/npm%20install-use--camera-blue.svg)](https://www.npmjs.com/package/use-camera) [![gzip size](https://img.badgesize.io/franciscop/use-camera/master/index.min.js.svg?compression=gzip)](https://github.com/franciscop/use-camera/blob/master/index.min.js)
 
 A React hook to use the camera and audio of the device:
 
