@@ -1,6 +1,6 @@
 {
   "name": "use-camera",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A React hook to use the camera and audio of the device",
   "main": "index.min.js",
   "scripts": {
