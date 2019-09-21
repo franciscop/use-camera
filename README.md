@@ -14,7 +14,7 @@ export default () => {
 
 It will ask the user to accept the camera and audio with the native browser prompt:
 
-![Camera Prompt](./assets/prompt.png)
+<img width="300" src="https://raw.githubusercontent.com/franciscop/use-camera/master/assets/prompt.png" />
 
 If you only want either the audio or video, set the other one to false:
 
