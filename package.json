@@ -1,11 +1,13 @@
 {
   "name": "use-camera",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A React hook to use the camera and audio of the device",
   "homepage": "https://github.com/franciscop/use-camera#readme",
   "bugs": "https://github.com/franciscop/use-camera/issues",
   "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
-  "funding": "https://www.paypal.me/franciscopresencia/19",
+  "funding": {
+    "url": "https://www.paypal.me/franciscopresencia/19"
+  },
   "license": "MIT",
   "scripts": {
     "build": "webpack -c"
