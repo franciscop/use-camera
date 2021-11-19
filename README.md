@@ -33,6 +33,14 @@ export const VideoStream () => {
 };
 ```
 
+## Facing away
+
+For mobile, if you want the camera to face the environment or want to pass some other video settings please use the `video` key:
+
+```js
+useCamera({ vide: { facingMode: 'environment', ... }})
+```
+
 
 ## Fullscreen example
 
