@@ -2,20 +2,10 @@
   "name": "use-camera",
   "version": "0.2.4",
   "description": "A React hook to use the camera and audio of the device",
-  "homepage": "https://github.com/franciscop/use-camera#readme",
-  "bugs": "https://github.com/franciscop/use-camera/issues",
+  "repository": "github:franciscop/use-camera",
   "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
-  "funding": {
-    "url": "https://www.paypal.me/franciscopresencia/19"
-  },
+  "funding": "https://www.paypal.me/franciscopresencia/19",
   "license": "MIT",
-  "scripts": {
-    "build": "webpack -c"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/franciscop/use-camera.git"
-  },
   "keywords": [
     "react",
     "hook",
@@ -24,11 +14,11 @@
     "audio",
     "stream"
   ],
+  "scripts": {
+    "build": "webpack -c"
+  },
   "main": "index.min.js",
   "files": [],
-  "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
@@ -36,10 +26,13 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
-    "react": "^16.8.0 || ^17.0.0",
+    "react": "^18.3.1",
     "regenerator-runtime": "^0.12.1",
     "uglify-es": "^3.1.3",
     "webpack": "^4.25.0",
     "webpack-cli": "^3.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
   }
 }
