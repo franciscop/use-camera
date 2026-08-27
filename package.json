@@ -1,6 +1,6 @@
 {
   "name": "use-camera",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "A React hook to use the camera and audio of the device",
   "repository": "github:franciscop/use-camera",
   "author": "Francisco Presencia <public@francisco.io> (https://francisco.io/)",
